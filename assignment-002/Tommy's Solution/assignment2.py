@@ -30,8 +30,8 @@ def read_data(data_file_name, line_width):
             num_lines_without_line_width += 1
     return num_lines_with_line_width, num_lines_without_line_width
 
-total_width = get_total_width_of_schema("assignment-002\example-003\schema.txt")
-print(read_data("assignment-002\example-003\data.txt", total_width))
+total_width = get_total_width_of_schema(sys.argv[1])
+print(read_data(sys.argv[2], total_width))
 
 
 
