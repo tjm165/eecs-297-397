@@ -38,9 +38,4 @@ def count_data(data_file_name, line_width):
 total_width = get_total_schema_width(sys.argv[1])
 data_output = count_data(sys.argv[2], total_width)
 
-print(data_output)
-
-
-
-
-
+print(str(data_output[0]) + " " + str(data_output[1]))
