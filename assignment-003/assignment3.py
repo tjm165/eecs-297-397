@@ -55,5 +55,11 @@ def highest_frequency_count(item_list):
         if item not in item_frequency:
             item_frequency[item] = 0
         item_frequency[item] = item_frequency[item] + 1
+
+    highest_frequency = 0
+    for item in item_frequency:
+        if item > highest_frequency:
+            highest_frequency = item
         
-    return 0
+    return highest_frequency
+
