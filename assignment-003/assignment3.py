@@ -80,5 +80,3 @@ def highest_frequency_count_test():
     item_list = ["A", "A", "B", "C", "A", "B", "B", "B", "C", "D"]
     # expected highest frequency is 4
     return 4 == highest_frequency_count(item_list)
-
-highest_frequency_count_test()
